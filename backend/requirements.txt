@@ -1,0 +1,51 @@
+# SecurePDF AI v3.0 - Enterprise Python Dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+pydantic==2.9.2
+pydantic-settings==2.5.2
+sqlalchemy==2.0.35
+asyncpg==0.29.0
+aiosqlite==0.20.0
+alembic==1.13.3
+redis==5.1.0
+celery==5.4.0
+python-jose[cryptography]==3.3.0
+passlib[argon2]==1.7.4
+argon2-cffi==23.1.0
+python-multipart==0.0.12
+cryptography==43.0.1
+httpx==0.27.2
+websockets==13.1
+
+# PDF Processing & Manipulation
+PyMuPDF==1.24.10
+pypdf==5.0.0
+pdfplumber==0.11.4
+reportlab==4.2.5
+weasyprint==62.3
+pdf2image==1.17.0
+Pillow==10.4.0
+python-docx==1.1.2
+openpyxl==3.1.5
+python-pptx==1.0.2
+markdown==3.7
+beautifulsoup4==4.12.3
+
+# Computer Vision & OCR
+opencv-python-headless==4.10.0.84
+pytesseract==0.3.13
+numpy==1.26.4
+
+# AI, Vector DB & Search
+qdrant-client==1.11.3
+rank-bm25==0.2.2
+scikit-learn==1.5.2
+
+# Testing & Utilities
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-cov==5.0.0
+pytest-mock==3.14.0
+filetype==1.2.0
+psutil==6.0.0
+rich==13.9.1
